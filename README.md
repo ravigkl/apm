@@ -36,7 +36,7 @@ It is used for monitoring and troubleshooting microservices-based distributed sy
   - Root cause analysis
   - Service dependency analysis
   - Performance / latency optimization
-- [Apache Skywalking](): This open source APM tool is focused on monitoring distributed systems, including microservices, cloud-native, and container-based architectures. Some of the key features of the APM tool includes:
+- [Apache Skywalking](https://skywalking.apache.org/): This open source APM tool is focused on monitoring distributed systems, including microservices, cloud-native, and container-based architectures. Some of the key features of the APM tool includes:
 
   - Service, service instance, endpoint metrics analysis
   - Root cause analysis with code profiling
@@ -46,13 +46,6 @@ It is used for monitoring and troubleshooting microservices-based distributed sy
 Skywalking also supports the collection of telemetry data in multiple formats.
 
 
-- [Elastic APM](https://www.elastic.co/observability/application-performance-monitoring): Get deep visibility into your cloud-native and distributed applications — from microservices to serverless architectures — and quickly identify and resolve root causes of issues. Seamlessly adopt APM to automatically identify anomalies, map service dependencies, and simplify investigations into outliers and abnormal behavior. Optimize your application code with extensive support for popular languages, OpenTelemetry, and distributed tracing. It is not free.
-Elastic APM is an open source application performance monitoring tool built on top of the ELK stack (Elasticsearch, Logstash, Kibana). It consists of 4 main components:
-
-  - APM agents - These are open source libraries installed in your services for collecting performance data.
-  - APM server -It is a separate component that is free and open source. It receives performance data from the APM agents. The APM server validates and processes events from the APM agents.
-  - Elasticsearch - It is used to store the APM performance metrics.
-  - Kibana - It is a visualization platform designed to work with Elastsearch.
 - [App Metrics](https://www.app-metrics.io/): App Metrics is an open-source and cross-platform .NET library used to record metrics within an application. App Metrics can run on .NET Core or on the full .NET framework also supporting .NET 4.5.2. App Metrics is an open source and cross-platform .NET library that can be used to capture application metrics within any .NET application. App Metrics provides extensions to report to various open source time-series databases. It also provides dashboards to visualize application metrics in real-time. Some of the key features of this open source APM tool includes:
 
   - Track metrics for any type of .NET applications
